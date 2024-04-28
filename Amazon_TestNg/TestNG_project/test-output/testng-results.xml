@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-27T18:54:37 IST" name="Default suite" finished-at="2024-04-27T18:55:22 IST" duration-ms="45622">
+    <groups>
+    </groups>
+    <test started-at="2024-04-27T18:54:37 IST" name="Default test" finished-at="2024-04-27T18:55:22 IST" duration-ms="45622">
+      <class name="AmazonTestNg.AmazonTesting">
+        <test-method is-config="true" signature="Launch_browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:54:37 IST" name="Launch_browser" finished-at="2024-04-27T18:54:45 IST" duration-ms="7854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_browser -->
+        <test-method signature="Login_to_Amazon()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:54:45 IST" name="Login_to_Amazon" finished-at="2024-04-27T18:54:50 IST" duration-ms="5615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_to_Amazon -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:54:50 IST" name="Close_Browser" finished-at="2024-04-27T18:54:52 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="Launch_browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:54:52 IST" name="Launch_browser" finished-at="2024-04-27T18:54:58 IST" duration-ms="6856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_browser -->
+        <test-method signature="Search_item()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:54:58 IST" name="Search_item" finished-at="2024-04-27T18:55:03 IST" depends-on-methods="AmazonTestNg.AmazonTesting.Login_to_Amazon" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_item -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:03 IST" name="Close_Browser" finished-at="2024-04-27T18:55:04 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="Launch_browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:04 IST" name="Launch_browser" finished-at="2024-04-27T18:55:09 IST" duration-ms="5410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_browser -->
+        <test-method signature="verifyTitle()[pri:1, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:09 IST" name="verifyTitle" finished-at="2024-04-27T18:55:09 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:09 IST" name="Close_Browser" finished-at="2024-04-27T18:55:11 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+        <test-method is-config="true" signature="Launch_browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:11 IST" name="Launch_browser" finished-at="2024-04-27T18:55:21 IST" duration-ms="9884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_browser -->
+        <test-method signature="verifyLogo()[pri:2, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:21 IST" name="verifyLogo" finished-at="2024-04-27T18:55:21 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="Close_Browser()[pri:0, instance:AmazonTestNg.AmazonTesting@28eaa59a]" started-at="2024-04-27T18:55:21 IST" name="Close_Browser" finished-at="2024-04-27T18:55:22 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Browser -->
+      </class> <!-- AmazonTestNg.AmazonTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
