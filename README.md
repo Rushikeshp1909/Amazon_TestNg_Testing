@@ -2,6 +2,7 @@ In this project, i have utilizing the powerful TestNG framework alongside Seleni
 ensuring the functionality and integrity of essential features of Application as follows steps :  
 
 𝐓𝐞𝐬𝐭 𝐂𝐚𝐬𝐞𝐬 :
+
 𝟏. 𝐋𝐨𝐠𝐢𝐧 𝐭𝐨 𝐀𝐦𝐚𝐳𝐨𝐧 : Initiating the test, & simulated user login, ensuring smooth authentication flow. This test verifies the robustness of the login mechanism.
 
 𝟐. 𝐒𝐞𝐚𝐫𝐜𝐡 𝐈𝐭𝐞𝐦 : With the user logged in, proceed to search for an item, say 'Apple iPhone 15,' examining the search functionality.
@@ -12,6 +13,7 @@ ensuring the functionality and integrity of essential features of Application as
 
 
 In this I have also used some TestNG Annotations as follows :
+
 𝟏. 𝐓𝐞𝐬𝐭 𝐏𝐫𝐢𝐨𝐫𝐢𝐭𝐢𝐳𝐚𝐭𝐢𝐨𝐧 : Utilizing TestNG annotations like @Test(priority = ...), as prioritize test execution, ensuring critical functionalities are thoroughly validated.
 
 𝟐. 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐲 𝐌𝐞𝐭𝐡𝐨𝐝 : Leveraging dependsOnMethods attribute, to manage test dependencies, executing tests in a logical sequence.
